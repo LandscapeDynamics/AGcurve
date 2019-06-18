@@ -1,0 +1,17 @@
+AGcurve is a small R library of functions used for performing spatial
+point pattern analysis using the AG-curve (agglomerative) technique. The
+AG-curve is, basically, a graphical representation of a cluster dendrogram
+that illustrates the rate of cluster merging. The original work on the
+AG-curve was done by Takai, Tamura and Motoyama, 2017 (A New Graphical
+Approach to Classify Spatial Point Patterns Based on Hierarchical
+Cluster Analysis, J Japanese Society of Computational Statistics 30(1):
+1-14. https://dx.doi.org/10.5183/jjscs.1611001_229).
+
+To install in R you will first want to ensure you have the devtools
+library installed.
+
+# If you don't have it yet, launch R and install 'devtools':
+install.packages('devtools')
+# Then install the AGcurve package:
+devtools::install_github('bjornbrooks/AGcurve')
+# Finally refer to the manual for useful demos. Then explore and enjoy!
